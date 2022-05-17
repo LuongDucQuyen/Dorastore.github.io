@@ -1,6 +1,6 @@
 var element = "";
 var showMenu = (id) => {
-  id.onclick = (e) => {
+  id.onmouseup = (e) => {
     e.stopPropagation();
     e.preventDefault();
     if (element == "") {
